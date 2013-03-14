@@ -18,7 +18,7 @@ ul.breadcrumbs{
     height: 1em;
     width: none;
 }
-
+  
 .search-form{
     float: right;
     list-style-type:none;
@@ -31,4 +31,22 @@ ul.breadcrumbs{
     border-top: solid 1px #ccc;
     border-bottom: solid 1px #ccc;
     margin-bottom: 20px;
+}
+
+.gridenabled{
+    width:32px;
+    height:15px;
+    margin-bottom: 10px;
+    background:url(../img/app/gridlist.jpg) 0 -16px;
+}
+
+.listenabled{
+    width:32px;
+    height:15px;
+    margin-bottom: 10px;
+    background:url(../img/app/gridlist.jpg) 0 0;
+}
+
+.list{
+    display: none;
 }
